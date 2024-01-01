@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#madLibOutput {
+    padding: 20px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'mage';
+    src: url('WinterMage-ZVR6B.ttf');
+}
+
+.mage {
+    font-family: 'mage';
+}
+
+@font-face {
+    font-family: 'penguin';
+    src: url('WinterPenguin-2O19l.ttf');
+}
+
+.penguin {
+    font-family: 'penguin';
+
+}
